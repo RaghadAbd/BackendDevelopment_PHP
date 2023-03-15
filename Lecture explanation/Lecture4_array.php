@@ -28,7 +28,7 @@ sort($colors);
 print_r($colors);
 echo "<br>";
 
-//-	Delete the first element and print array using “print-r”.
+//Delete the first element and print array using “print-r”.
 $ccc = array_shift($colors);
 print_r($colors);
 echo "<br>";
@@ -91,8 +91,8 @@ $array = array('key1' => 'value1', 'key2' => 'value2');
 
 $keys = array_keys($array);
 
-// for($i=0; $i < count($keys); ++$i) {
-//     echo $keys[$i] . ' ' . $array[$keys[$i]] . "\n";
-// }
+for($i=0; $i < count($keys); ++$i) {
+    echo $keys[$i] . ' ' . $array[$keys[$i]] . "\n";
+}
 
 ?>
